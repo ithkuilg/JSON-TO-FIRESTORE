@@ -1,2 +1,3 @@
 version: 2
-regist
+registries:
+  npm-n
