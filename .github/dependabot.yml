@@ -1,3 +1,4 @@
 version: 2
 registries:
-  npm-n
+  npm-npmjs:
+    type: npm
