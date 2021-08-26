@@ -6,4 +6,4 @@ registries:
     token: '${{secrets.NPM_TOKEN}}'
   npm-registry-npm-pkg-github-com-catchen:
     type: npm-registry
- 
+    url: https:/
