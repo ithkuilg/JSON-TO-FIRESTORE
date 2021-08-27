@@ -9,4 +9,5 @@ registries:
     url: https://npm.pkg.github.com/CatChen
     token: '${{secrets.NPM_GITHUB_TOKEN}}'
 
-upd
+updates:
+  - package
