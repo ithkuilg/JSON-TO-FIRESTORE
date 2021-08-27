@@ -10,4 +10,4 @@ registries:
     token: '${{secrets.NPM_GITHUB_TOKEN}}'
 
 updates:
-  - package
+  - package-ecosystem: npm
