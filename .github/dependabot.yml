@@ -11,3 +11,4 @@ registries:
 
 updates:
   - package-ecosystem: npm
+    directory: 
