@@ -11,4 +11,5 @@ registries:
 
 updates:
   - package-ecosystem: npm
-    directory: 
+    directory: '/'
+    sched
