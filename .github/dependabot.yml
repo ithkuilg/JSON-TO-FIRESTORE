@@ -13,4 +13,5 @@ updates:
   - package-ecosystem: npm
     directory: '/'
     schedule:
-      interval: dai
+      interval: daily
+      ti
