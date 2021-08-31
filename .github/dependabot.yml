@@ -15,4 +15,5 @@ updates:
     schedule:
       interval: daily
       time: '03:00'
-      timezone: US/Pa
+      timezone: US/Pacific
+    as
