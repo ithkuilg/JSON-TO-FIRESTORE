@@ -18,4 +18,5 @@ updates:
       timezone: US/Pacific
     assignees:
       - catchen
-    reg
+    registries:
+     
