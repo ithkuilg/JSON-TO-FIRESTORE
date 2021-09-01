@@ -20,4 +20,4 @@ updates:
       - catchen
     registries:
       - npm-npmjs
-      - npm-registry-npm-pk
+      - npm-registry-npm-pkg-github-com-catch
