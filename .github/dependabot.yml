@@ -21,4 +21,5 @@ updates:
     registries:
       - npm-npmjs
       - npm-registry-npm-pkg-github-com-catchen
-    labe
+    labels:
+      - pass2
