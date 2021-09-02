@@ -24,4 +24,4 @@ updates:
     labels:
       - pass2ship
 
-  - pack
+  - package-ecosystem: 'gith
