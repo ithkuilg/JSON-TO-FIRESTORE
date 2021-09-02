@@ -22,4 +22,6 @@ updates:
       - npm-npmjs
       - npm-registry-npm-pkg-github-com-catchen
     labels:
-      - pass2
+      - pass2ship
+
+  - pack
