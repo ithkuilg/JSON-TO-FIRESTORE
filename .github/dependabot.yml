@@ -24,4 +24,5 @@ updates:
     labels:
       - pass2ship
 
-  - package-ecosystem: 'github-actio
+  - package-ecosystem: 'github-actions'
+    director
