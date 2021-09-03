@@ -25,4 +25,5 @@ updates:
       - pass2ship
 
   - package-ecosystem: 'github-actions'
-    director
+    directory: '/'
+    schedul
