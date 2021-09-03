@@ -28,4 +28,5 @@ updates:
     directory: '/'
     schedule:
       interval: daily
-      ti
+      time: '03:00'
+   
