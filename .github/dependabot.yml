@@ -26,4 +26,5 @@ updates:
 
   - package-ecosystem: 'github-actions'
     directory: '/'
-    schedul
+    schedule:
+      interva
