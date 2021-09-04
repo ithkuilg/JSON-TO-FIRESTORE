@@ -30,4 +30,5 @@ updates:
       interval: daily
       time: '03:00'
       timezone: US/Pacific
-    assign
+    assignees:
+      -
