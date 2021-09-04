@@ -32,4 +32,5 @@ updates:
       timezone: US/Pacific
     assignees:
       - catchen
-    lab
+    labels:
+      - 
