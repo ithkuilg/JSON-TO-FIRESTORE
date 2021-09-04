@@ -31,4 +31,5 @@ updates:
       time: '03:00'
       timezone: US/Pacific
     assignees:
-      -
+      - catchen
+    lab
