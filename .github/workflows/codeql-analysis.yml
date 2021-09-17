@@ -16,4 +16,5 @@ on:
     branches: [master, '[0-9]+-[0-9]+-*']
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [master, '[0-9]+-[0
+    branches: [master, '[0-9]+-[0-9]+-*']
+  schedu
