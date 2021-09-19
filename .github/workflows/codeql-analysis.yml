@@ -28,4 +28,5 @@ jobs:
 
     strategy:
       fail-fast: false
-      
+      matrix:
+        lan
