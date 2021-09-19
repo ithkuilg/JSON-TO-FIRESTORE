@@ -24,4 +24,4 @@ on:
 jobs:
   analyze:
     name: Analyze
-    r
+    runs-on: ubu
