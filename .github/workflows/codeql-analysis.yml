@@ -26,4 +26,5 @@ jobs:
     name: Analyze
     runs-on: ubuntu-latest
 
-    strat
+    strategy:
+      fa
