@@ -23,4 +23,5 @@ on:
 
 jobs:
   analyze:
-    name: Anal
+    name: Analyze
+    r
