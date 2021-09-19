@@ -29,4 +29,4 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        lan
+        language: ['javas
