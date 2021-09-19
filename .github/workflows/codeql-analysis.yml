@@ -27,4 +27,5 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
-      fa
+      fail-fast: false
+      
