@@ -24,4 +24,4 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: ubu
+    runs-on: ubuntu-latest
