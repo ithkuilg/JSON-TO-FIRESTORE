@@ -30,4 +30,4 @@ jobs:
       fail-fast: false
       matrix:
         language: ['javascript']
-        # CodeQL supports [
+        # CodeQL supports [ 'cpp', 'csharp'
