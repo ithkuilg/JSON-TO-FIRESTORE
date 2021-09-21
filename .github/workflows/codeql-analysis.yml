@@ -32,4 +32,4 @@ jobs:
         language: ['javascript']
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python' ]
         # Learn more:
-        # https:/
+        # https://docs.github.co
