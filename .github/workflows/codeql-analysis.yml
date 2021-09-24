@@ -40,4 +40,4 @@ jobs:
 
       # Initializes the CodeQL tools for scanning.
       - name: Initialize CodeQL
-    
+        uses
