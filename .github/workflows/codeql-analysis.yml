@@ -44,4 +44,4 @@ jobs:
         with:
           languages: ${{ matrix.language }}
           # If you wish to specify custom queries, you can do so here or in a config file.
-          # By defaul
+          # By default, queries l
