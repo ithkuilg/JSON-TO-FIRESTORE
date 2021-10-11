@@ -61,4 +61,4 @@ jobs:
       #    uses a compiled language
 
       #- run: |
-      #   m
+      #   make bootst
