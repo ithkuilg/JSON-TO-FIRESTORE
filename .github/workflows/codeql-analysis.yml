@@ -64,4 +64,4 @@ jobs:
       #   make bootstrap
       #   make release
 
-      - name: Perform CodeQ
+      - name: Perform CodeQL Analysis
