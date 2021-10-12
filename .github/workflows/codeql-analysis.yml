@@ -62,4 +62,6 @@ jobs:
 
       #- run: |
       #   make bootstrap
-      #   make relea
+      #   make release
+
+      - name: 
