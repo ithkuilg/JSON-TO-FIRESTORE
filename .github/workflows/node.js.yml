@@ -4,4 +4,5 @@
 name: Node.js CI
 
 on:
-  push
+  push:
+    branches: [mas
