@@ -5,4 +5,5 @@ name: Node.js CI
 
 on:
   push:
-    branches: [mas
+    branches: [master]
+  pull_reques
