@@ -28,4 +28,5 @@ jobs:
       - run: yarn install
       - run: yarn build
       - run: yarn flow
-      - run: yarn test src --coverage --collectCoverageFrom=src/**/*.js && yarn codeco
+      - run: yarn test src --coverage --collectCoverageFrom=src/**/*.js && yarn codecov -C
+        i
