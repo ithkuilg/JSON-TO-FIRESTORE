@@ -8,3 +8,20 @@ on:
   release:
     types: [created]
   workflow_call:
+    inputs:
+      tag:
+        type: string
+        required: false
+      dry-run:
+        type: boolean
+        default: false
+        required: false
+  workflow_dispatch:
+
+jobs:
+  publish-npm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        if: ${{ !inputs.dry-run }}
+        with:
