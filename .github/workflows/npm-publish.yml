@@ -45,3 +45,18 @@ jobs:
           npm whoami
           npm config ls -l
           if [[ "$DRY_RUN" = true ]]
+          then
+            npm publish --dry-run
+          else
+            npm publish
+          fi
+
+  publish-github:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v3
+        if: ${{ !inputs.dry-run }}
+        with:
