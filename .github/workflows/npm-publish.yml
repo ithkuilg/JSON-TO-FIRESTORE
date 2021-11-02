@@ -71,3 +71,16 @@ jobs:
           check-latest: true
           registry-url: https://npm.pkg.github.com
       - env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRY_RUN: ${{ inputs.dry-run || false }}
+        run: |
+          yarn install
+          yarn build
+          yarn registry:github
+          npm config ls -l
+          if [[ "$DRY_RUN" = true ]]
+          then
+            npm publish --dry-run
+          else
+            npm publish
+          fi
