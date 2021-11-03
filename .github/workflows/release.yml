@@ -1,4 +1,5 @@
 name: Release
 
 on:
-  sche
+  schedule:
+    - cron:
