@@ -7,4 +7,4 @@ on:
     inputs:
       release-type:
         description: 'Release Type'
-        
+        required: 
