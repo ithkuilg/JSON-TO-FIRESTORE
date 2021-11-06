@@ -6,4 +6,5 @@ on:
   workflow_dispatch:
     inputs:
       release-type:
-        description: 'Release 
+        description: 'Release Type'
+        
