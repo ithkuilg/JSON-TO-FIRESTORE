@@ -21,4 +21,5 @@ on:
       prerelease:
         description: 'Prerelease'
         required: true
-        defa
+        default: false
+        type: b
