@@ -20,4 +20,5 @@ on:
           - prerelease
       prerelease:
         description: 'Prerelease'
-        required: tr
+        required: true
+        defa
