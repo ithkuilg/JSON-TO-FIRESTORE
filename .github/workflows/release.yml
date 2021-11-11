@@ -19,4 +19,4 @@ on:
           - prepatch
           - prerelease
       prerelease:
-        desc
+        description: 
