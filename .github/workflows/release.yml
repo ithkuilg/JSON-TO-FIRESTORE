@@ -20,3 +20,4 @@ on:
           - prerelease
       prerelease:
         description: 'Prerelease'
+        required: tr
