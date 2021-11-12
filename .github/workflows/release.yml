@@ -25,3 +25,4 @@ on:
         type: boolean
       skip-if-no-diff:
         description: 'Skip if no diff'
+        r
