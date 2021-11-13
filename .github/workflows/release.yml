@@ -27,4 +27,4 @@ on:
         description: 'Skip if no diff'
         required: true
         default: false
-     
+        type: boolean
