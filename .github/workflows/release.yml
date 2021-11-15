@@ -31,4 +31,4 @@ on:
       diff-targets:
         description: 'Diff Targets'
         required: false
-        default: '{index.*,lib/**/*,package.json,tsco
+        default: '{index.*,lib/**/*,package.json,tsconfig.json,README.m
