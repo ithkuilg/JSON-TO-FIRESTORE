@@ -37,4 +37,7 @@ on:
         description: 'Dry run'
         required: true
         default: false
-        type: boo
+        type: boolean
+
+jobs:
+  bu
