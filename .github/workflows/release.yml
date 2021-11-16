@@ -36,4 +36,4 @@ on:
       dry-run:
         description: 'Dry run'
         required: true
-    
+        default: f
