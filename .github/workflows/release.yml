@@ -32,4 +32,5 @@ on:
         description: 'Diff Targets'
         required: false
         default: '{index.*,lib/**/*,package.json,tsconfig.json,README.md,LICENSE}'
-        type: 
+        type: string
+      dry-run:
