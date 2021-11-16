@@ -34,4 +34,5 @@ on:
         default: '{index.*,lib/**/*,package.json,tsconfig.json,README.md,LICENSE}'
         type: string
       dry-run:
-        descri
+        description: 'Dry run'
+  
