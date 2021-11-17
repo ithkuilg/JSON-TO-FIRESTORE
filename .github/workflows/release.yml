@@ -40,4 +40,5 @@ on:
         type: boolean
 
 jobs:
-  bu
+  build:
+    us
