@@ -45,3 +45,6 @@ jobs:
 
   codeql:
     uses: ./.github/workflows/codeql-analysis.yml
+
+  release:
+    need
