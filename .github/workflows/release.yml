@@ -41,4 +41,4 @@ on:
 
 jobs:
   build:
-    us
+    uses: ./.github/workfl
