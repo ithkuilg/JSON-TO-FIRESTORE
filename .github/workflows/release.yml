@@ -44,4 +44,4 @@ jobs:
     uses: ./.github/workflows/node.js.yml
 
   codeql:
-    uses: ./.github/work
+    uses: ./.github/workflows/codeql
