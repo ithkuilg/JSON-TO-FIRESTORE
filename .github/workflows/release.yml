@@ -47,4 +47,5 @@ jobs:
     uses: ./.github/workflows/codeql-analysis.yml
 
   release:
-    needs: [build, c
+    needs: [build, codeql]
+    concurrency: 
