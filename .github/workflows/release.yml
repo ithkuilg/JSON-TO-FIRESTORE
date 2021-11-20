@@ -49,4 +49,5 @@ jobs:
   release:
     needs: [build, codeql]
     concurrency: release
-    runs-on: ubunt
+    runs-on: ubuntu-latest
+    
