@@ -48,4 +48,5 @@ jobs:
 
   release:
     needs: [build, codeql]
-    concurrency: 
+    concurrency: release
+    
