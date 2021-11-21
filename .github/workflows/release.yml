@@ -50,4 +50,5 @@ jobs:
     needs: [build, codeql]
     concurrency: release
     runs-on: ubuntu-latest
+    outputs:
     
