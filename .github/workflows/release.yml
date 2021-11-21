@@ -51,4 +51,4 @@ jobs:
     concurrency: release
     runs-on: ubuntu-latest
     outputs:
-    
+      tag: ${{ steps.r
