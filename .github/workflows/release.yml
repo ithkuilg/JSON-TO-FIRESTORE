@@ -51,4 +51,5 @@ jobs:
     concurrency: release
     runs-on: ubuntu-latest
     outputs:
-      tag: ${{ steps.release.outputs.t
+      tag: ${{ steps.release.outputs.tag }}
+      
