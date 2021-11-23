@@ -52,4 +52,5 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       tag: ${{ steps.release.outputs.tag }}
-      skipped: ${{ steps.release.out
+      skipped: ${{ steps.release.outputs.skipped }}
+    s
