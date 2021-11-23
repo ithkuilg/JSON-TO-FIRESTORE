@@ -54,4 +54,5 @@ jobs:
       tag: ${{ steps.release.outputs.tag }}
       skipped: ${{ steps.release.outputs.skipped }}
     steps:
-      - uses: actions/chec
+      - uses: actions/checkout@v3
+   
