@@ -60,4 +60,4 @@ jobs:
           fetch-depth: 0
 
       - id: release
-        uses: Cat
+        uses: CatChen/node-packag
