@@ -59,4 +59,5 @@ jobs:
           ref: master
           fetch-depth: 0
 
-      - id
+      - id: release
+  
