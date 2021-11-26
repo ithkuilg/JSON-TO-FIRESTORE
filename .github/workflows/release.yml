@@ -60,4 +60,5 @@ jobs:
           fetch-depth: 0
 
       - id: release
-        uses: CatChen/node-package-release-ac
+        uses: CatChen/node-package-release-action@v1
+      
