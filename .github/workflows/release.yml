@@ -65,4 +65,4 @@ jobs:
           release-type: ${{ inputs.release-type || 'patch' }}
           prerelease: ${{ inputs.prerelease || false }}
           dry-run: ${{ inputs.dry-run || false }}
-          skip-if-no-diff: ${{ inputs.sk
+          skip-if-no-diff: ${{ inputs.skip-if-no-dif
