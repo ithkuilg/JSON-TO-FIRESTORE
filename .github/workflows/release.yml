@@ -66,4 +66,4 @@ jobs:
           prerelease: ${{ inputs.prerelease || false }}
           dry-run: ${{ inputs.dry-run || false }}
           skip-if-no-diff: ${{ inputs.skip-if-no-diff || true }}
-          diff-targets: ${{ inputs.diff-targets || '{inde
+          diff-targets: ${{ inputs.diff-targets || '{index.*,lib/**/*,
