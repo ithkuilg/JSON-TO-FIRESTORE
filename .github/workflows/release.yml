@@ -68,4 +68,5 @@ jobs:
           skip-if-no-diff: ${{ inputs.skip-if-no-diff || true }}
           diff-targets: ${{ inputs.diff-targets || '{index.*,lib/**/*,package.json,tsconfig.json,README.md,LICENSE}' }}
 
-  pub
+  publish:
+    nee
