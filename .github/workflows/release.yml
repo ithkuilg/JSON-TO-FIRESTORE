@@ -69,4 +69,5 @@ jobs:
           diff-targets: ${{ inputs.diff-targets || '{index.*,lib/**/*,package.json,tsconfig.json,README.md,LICENSE}' }}
 
   publish:
-    nee
+    needs: release
+   
