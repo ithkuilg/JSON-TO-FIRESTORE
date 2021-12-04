@@ -70,4 +70,4 @@ jobs:
 
   publish:
     needs: release
-    if: ${{ needs.releas
+    if: ${{ needs.release.outputs.skip
