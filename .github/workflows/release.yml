@@ -74,4 +74,4 @@ jobs:
     uses: ./.github/workflows/npm-publish.yml
     secrets: inherit
     with:
-      
+      tag: ${{ needs.re
