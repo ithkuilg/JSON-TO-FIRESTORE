@@ -72,4 +72,5 @@ jobs:
     needs: release
     if: ${{ needs.release.outputs.skipped != 'true' }}
     uses: ./.github/workflows/npm-publish.yml
-    secrets: inher
+    secrets: inherit
+    with
