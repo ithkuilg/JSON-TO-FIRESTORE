@@ -71,4 +71,4 @@ jobs:
   publish:
     needs: release
     if: ${{ needs.release.outputs.skipped != 'true' }}
-    uses: ./.github/workflows
+    uses: ./.github/workflows/npm-publ
