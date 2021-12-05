@@ -71,3 +71,4 @@ jobs:
   publish:
     needs: release
     if: ${{ needs.release.outputs.skipped != 'true' }}
+    uses: ./.git
