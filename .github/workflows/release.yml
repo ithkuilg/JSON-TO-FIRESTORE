@@ -75,4 +75,4 @@ jobs:
     secrets: inherit
     with:
       tag: ${{ needs.release.outputs.tag }}
-      dry-run: $
+      dry-run: ${{ inputs.dry-r
