@@ -2,4 +2,5 @@ name: Ship
 
 on:
   pull_request:
-    branche
+    branches: [master]
+    t
