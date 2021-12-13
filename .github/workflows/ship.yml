@@ -3,4 +3,6 @@ name: Ship
 on:
   pull_request:
     branches: [master]
-    t
+    types:
+      [
+        la
