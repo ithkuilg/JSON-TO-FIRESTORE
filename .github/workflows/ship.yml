@@ -6,4 +6,4 @@ on:
     types:
       [
         labeled,
-      
+        unlabeled
