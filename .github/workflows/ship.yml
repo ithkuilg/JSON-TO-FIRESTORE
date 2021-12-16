@@ -8,4 +8,4 @@ on:
         labeled,
         unlabeled,
         edited,
-    
+        closed,
