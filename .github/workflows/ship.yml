@@ -9,3 +9,4 @@ on:
         unlabeled,
         edited,
         closed,
+        reopened,
