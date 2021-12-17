@@ -10,4 +10,5 @@ on:
         edited,
         closed,
         reopened,
-        sync
+        synchronize,
+    
