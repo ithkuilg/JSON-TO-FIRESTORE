@@ -11,4 +11,5 @@ on:
         closed,
         reopened,
         synchronize,
-        review_reques
+        review_requested,
+        revie
