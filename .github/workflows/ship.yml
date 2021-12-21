@@ -16,4 +16,5 @@ on:
       ]
   pull_request_review:
     types: [submitted, edited, dismissed]
-  check_r
+  check_run:
+    t
