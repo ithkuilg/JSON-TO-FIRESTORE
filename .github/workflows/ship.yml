@@ -15,4 +15,5 @@ on:
         review_request_removed,
       ]
   pull_request_review:
-    types: [submitted, edited, dismi
+    types: [submitted, edited, dismissed]
+  check_r
