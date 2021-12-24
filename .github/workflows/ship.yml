@@ -21,4 +21,5 @@ on:
   check_suite:
     types: [completed]
   workflow_run:
-    branches-ignore: [mast
+    branches-ignore: [master]
+    workflow
