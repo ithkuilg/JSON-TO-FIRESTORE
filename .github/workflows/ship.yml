@@ -22,4 +22,4 @@ on:
     types: [completed]
   workflow_run:
     branches-ignore: [master]
-    workflow
+    workflows: ['Node.js C
