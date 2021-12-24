@@ -19,3 +19,4 @@ on:
   check_run:
     type: [created, rerequested, completed]
   check_suite:
+    types: [com
