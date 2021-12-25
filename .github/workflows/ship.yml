@@ -22,4 +22,5 @@ on:
     types: [completed]
   workflow_run:
     branches-ignore: [master]
-    workflows: ['Node.js C
+    workflows: ['Node.js CI', 'CodeQL']
+  
