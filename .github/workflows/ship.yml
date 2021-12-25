@@ -23,4 +23,4 @@ on:
   workflow_run:
     branches-ignore: [master]
     workflows: ['Node.js CI', 'CodeQL']
-  
+    types: [c
