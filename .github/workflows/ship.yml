@@ -25,4 +25,5 @@ on:
     workflows: ['Node.js CI', 'CodeQL']
     types: [completed]
 
-concur
+concurrency:
+  gr
