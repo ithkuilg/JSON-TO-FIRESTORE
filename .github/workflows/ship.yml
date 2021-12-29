@@ -26,4 +26,6 @@ on:
     types: [completed]
 
 concurrency:
-  gr
+  group: |-
+    ${{
+    
