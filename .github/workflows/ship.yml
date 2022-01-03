@@ -30,4 +30,4 @@ concurrency:
     ${{
       github.event.pull_request.number ||
       join(github.event.check_run.pull_requests.*.number, ', ') ||
-      joi
+      join(github.event.ch
