@@ -33,4 +33,6 @@ concurrency:
       join(github.event.check_suite.pull_requests.*.number, ', ') ||
       join(github.event.workflow_run.pull_requests.*.number, ', ') ||
       github.sha ||
-      github.
+      github.ref
+    }}
+
