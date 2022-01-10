@@ -37,4 +37,4 @@ concurrency:
     }}
 
 jobs:
-  concu
+  concurrency-g
