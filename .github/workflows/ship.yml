@@ -38,4 +38,4 @@ concurrency:
 
 jobs:
   concurrency-group:
-    name:
+    name: Concurrency g
