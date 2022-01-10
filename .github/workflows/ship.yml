@@ -38,4 +38,5 @@ concurrency:
 
 jobs:
   concurrency-group:
-    name: Concurrency g
+    name: Concurrency group
+    runs-on
