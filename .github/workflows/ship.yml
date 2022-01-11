@@ -41,4 +41,4 @@ jobs:
     name: Concurrency group
     runs-on: ubuntu-latest
     steps:
-      - name: C
+      - name: Concurrency gr
