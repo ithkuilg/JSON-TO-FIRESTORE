@@ -53,4 +53,4 @@ jobs:
               github.ref
             }}
         run: |
-          echo "::notice::Concurre
+          echo "::notice::Concurrency group is $
