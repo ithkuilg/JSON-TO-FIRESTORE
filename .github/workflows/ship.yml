@@ -59,4 +59,4 @@ jobs:
     name: Accept to Ship
     if: |-
       ${{
-        github.b
+        github.base_ref == 'maste
