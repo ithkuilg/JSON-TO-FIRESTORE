@@ -60,4 +60,5 @@ jobs:
     if: |-
       ${{
         github.base_ref == 'master' ||
-        github.event.pull_request.base.ref ==
+        github.event.pull_request.base.ref == 'master' ||
+      
