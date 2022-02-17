@@ -62,4 +62,5 @@ jobs:
         github.base_ref == 'master' ||
         github.event.pull_request.base.ref == 'master' ||
         contains(github.event.check_run.pull_requests.*.base.ref, 'master') ||
-        contains(github.event.check_suite.pull_requests.*.base.ref, 'master') |
+        contains(github.event.check_suite.pull_requests.*.base.ref, 'master') ||
+        contains
