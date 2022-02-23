@@ -78,4 +78,5 @@ jobs:
   pass-to-ship:
     name: Pass to Ship
     if: |-
-   
+      ${{
+        g
