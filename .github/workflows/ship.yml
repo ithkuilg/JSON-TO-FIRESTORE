@@ -79,4 +79,4 @@ jobs:
     name: Pass to Ship
     if: |-
       ${{
-        g
+        github.base_ref
