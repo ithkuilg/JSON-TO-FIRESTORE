@@ -76,4 +76,4 @@ jobs:
           timeout: 0
 
   pass-to-ship:
-    
+    name: Pass to S
