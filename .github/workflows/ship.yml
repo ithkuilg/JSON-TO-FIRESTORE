@@ -80,4 +80,4 @@ jobs:
     if: |-
       ${{
         github.base_ref == 'master' ||
-        github
+        github.event.pull
