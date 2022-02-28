@@ -81,4 +81,4 @@ jobs:
       ${{
         github.base_ref == 'master' ||
         github.event.pull_request.base.ref == 'master' ||
-        contain
+        contains(github.event.c
