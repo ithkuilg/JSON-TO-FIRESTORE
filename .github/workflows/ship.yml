@@ -81,4 +81,4 @@ jobs:
       ${{
         github.base_ref == 'master' ||
         github.event.pull_request.base.ref == 'master' ||
-        contains(github.event.check_run.pull_requests.*.ba
+        contains(github.event.check_run.pull_requests.*.base.ref, 'master'
