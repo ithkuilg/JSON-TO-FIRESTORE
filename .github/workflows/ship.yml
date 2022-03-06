@@ -86,4 +86,4 @@ jobs:
         contains(github.event.workflow_run.pull_requests.*.base.ref, 'master')
       }}
     runs-on: ubuntu-latest
-    permissio
+    permissions: write-all
