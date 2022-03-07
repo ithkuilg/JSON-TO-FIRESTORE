@@ -90,4 +90,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: CatChen/accept-to-ship-ac
+      - uses: CatChen/accept-to-ship-action@v0.4
+       
