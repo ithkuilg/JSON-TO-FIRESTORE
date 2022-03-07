@@ -92,4 +92,5 @@ jobs:
 
       - uses: CatChen/accept-to-ship-action@v0.4
         with:
-          merge-meth
+          merge-method: squash
+  
