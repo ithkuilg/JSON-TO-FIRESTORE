@@ -94,4 +94,4 @@ jobs:
         with:
           merge-method: squash
           timeout: 0
-          request-zer
+          request-zero-accept-zero: tr
