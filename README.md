@@ -27,3 +27,17 @@ type User = {
   id: number,
   name: string,
 }
+
+const userStorage = new Storage<User>('user', 1);
+
+userStorage.write({ id: 42 });
+// Flow error because userStorage.write is typed as (value: User) => void.
+
+const user = userStorage.read();
+// Flow infers user being User because userStorage.read is typed as () => User.
+```
+
+## Features
+
+1. Read and write values as JSON instead of string.
+2. TypeScript and Flow typing support for JSON structure being read and written.
