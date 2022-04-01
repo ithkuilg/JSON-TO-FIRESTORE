@@ -13,3 +13,17 @@ import Storage from 'versioned-storage';
 const userStorage = new Storage('user', 1);
 userStorage.write({
   id: 42,
+  name: 'Cat',
+});
+console.log(userStorage.read()); // { id: 42, name: 'Cat' }
+```
+
+Add typing information with Flow to make each storage type safe.
+
+```
+import Storage from 'versioned-storage';
+
+type User = {
+  id: number,
+  name: string,
+}
