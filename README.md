@@ -55,3 +55,16 @@ const settingsStorage = new Storage('settings', 1);
 ```
 
 When a storage's schema is changed and no longer compatible, bump the version number and old data will be purged automatically.
+
+```
+const settingsStorage = new Storage('settings', 2); // Erase all data from version 1
+```
+
+Migrate data from previous storage schema before purging if necessary.
+
+```
+let settingsStorage;
+try {
+  settingsStorage = new Storage('settings'); // Get the storage of existing version
+  switch (settingsStorage.version) {
+    case 1:
