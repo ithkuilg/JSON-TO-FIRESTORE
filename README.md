@@ -41,3 +41,17 @@ const user = userStorage.read();
 
 1. Read and write values as JSON instead of string.
 2. TypeScript and Flow typing support for JSON structure being read and written.
+
+## API
+
+The API is very simple. There are only 4 functions you need to know.
+
+### `Storage` class
+
+Create a storage by calling `Storage` class constructor with a name and a version.
+
+```
+const settingsStorage = new Storage('settings', 1);
+```
+
+When a storage's schema is changed and no longer compatible, bump the version number and old data will be purged automatically.
