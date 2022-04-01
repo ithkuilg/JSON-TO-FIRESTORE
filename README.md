@@ -68,3 +68,17 @@ try {
   settingsStorage = new Storage('settings'); // Get the storage of existing version
   switch (settingsStorage.version) {
     case 1:
+      // Read v1 settings, migrate it to v3 schema and store it
+      break;
+    case 2:
+      // Read v2 settings, migrate it to v3 schema and store it
+      break;
+    default:
+      throw new Error('Incompatible legacy storage schema');
+  }
+} catch (_error) {
+  settingsStorage = new Storage('settings', 3); // Start from scratch if not migratable
+}
+```
+
+### `Storage.prototype.write` method
