@@ -82,3 +82,19 @@ try {
 ```
 
 ### `Storage.prototype.write` method
+
+Write data to a named storage by calling `write` method on its instance.
+
+```
+settingsStorage.write({
+  brightness: 80,
+  volume: 100,
+});
+```
+
+### `Storage.prototype.read` method
+
+Read data from a named storage by calling `read` method on its instance.
+
+```
+const {
