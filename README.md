@@ -98,3 +98,15 @@ Read data from a named storage by calling `read` method on its instance.
 
 ```
 const {
+  brightness,
+  volume,
+} = settingsStorage.read();
+```
+
+### `Storage.reset` static method
+
+Clear all data across all named storages by calling the static method `reset`.
+
+```
+Storage.reset();
+```
