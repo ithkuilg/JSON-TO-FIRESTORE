@@ -1,3 +1,3 @@
 import Storage from './lib/Storage';
 
-export defaul
+export default Storage;
