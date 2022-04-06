@@ -1,3 +1,3 @@
 // @flow strict
 
-module.expor
+module.exports = require('./l
