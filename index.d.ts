@@ -1,1 +1,1 @@
-import Storage fr
+import Storage from './lib/S
