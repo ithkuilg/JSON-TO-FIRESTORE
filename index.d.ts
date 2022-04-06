@@ -1,1 +1,3 @@
-import Storage from './lib/S
+import Storage from './lib/Storage';
+
+e
