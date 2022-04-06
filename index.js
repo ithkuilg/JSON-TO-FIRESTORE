@@ -1,1 +1,1 @@
-module.exports = re
+module.exports = require(
