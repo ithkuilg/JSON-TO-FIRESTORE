@@ -17,3 +17,21 @@
     "postpublish": "pinst --enable"
   },
   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CatChen/versioned-storage.git"
+  },
+  "keywords": [
+    "versioned",
+    "storage"
+  ],
+  "author": "catchen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CatChen/versioned-storage/issues"
+  },
+  "homepage": "https://github.com/CatChen/versioned-storage#readme",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
