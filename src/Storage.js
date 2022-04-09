@@ -1,3 +1,3 @@
 // @flow strict
 
-function 
+function get(key: string): 
