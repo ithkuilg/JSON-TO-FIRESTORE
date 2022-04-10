@@ -3,4 +3,4 @@
 function get(key: string): ?string {
   let value = null;
   try {
-    value 
+    value = global.localS
