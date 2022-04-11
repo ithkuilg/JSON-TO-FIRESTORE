@@ -3,4 +3,5 @@
 function get(key: string): ?string {
   let value = null;
   try {
-    value = global.localStorage.getItem(k
+    value = global.localStorage.getItem(key);
+  } ca
