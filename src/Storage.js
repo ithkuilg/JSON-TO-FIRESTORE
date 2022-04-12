@@ -5,4 +5,4 @@ function get(key: string): ?string {
   try {
     value = global.localStorage.getItem(key);
   } catch (error) {
-    throw new Error('localStorage 
+    throw new Error('localStorage not accessible'
