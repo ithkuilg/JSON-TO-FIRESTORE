@@ -9,3 +9,5 @@ function get(key: string): ?string {
   }
   return value;
 }
+
+function set(key
