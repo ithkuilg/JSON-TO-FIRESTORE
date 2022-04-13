@@ -7,4 +7,5 @@ function get(key: string): ?string {
   } catch (error) {
     throw new Error('localStorage not accessible');
   }
-  r
+  return value;
+}
