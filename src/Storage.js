@@ -14,4 +14,4 @@ function set(key: string, value: string): void {
   try {
     global.localStorage.setItem(key, value);
   } catch (error) {
-    throw new Er
+    throw new Error('local
