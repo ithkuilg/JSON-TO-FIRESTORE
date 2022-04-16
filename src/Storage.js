@@ -14,4 +14,5 @@ function set(key: string, value: string): void {
   try {
     global.localStorage.setItem(key, value);
   } catch (error) {
-    throw new Error('localStorage not ac
+    throw new Error('localStorage not accessible');
+  
