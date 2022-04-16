@@ -19,4 +19,5 @@ function set(key: string, value: string): void {
 }
 
 function remove(key: string): void {
-  try 
+  try {
+    global.localSto
