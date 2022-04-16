@@ -18,4 +18,4 @@ function set(key: string, value: string): void {
   }
 }
 
-function remo
+function remove(key: string):
