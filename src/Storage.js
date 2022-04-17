@@ -22,4 +22,4 @@ function remove(key: string): void {
   try {
     global.localStorage.removeItem(key);
   } catch (error) {
-    throw new 
+    throw new Error('localStorage 
