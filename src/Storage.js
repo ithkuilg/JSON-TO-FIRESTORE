@@ -21,4 +21,5 @@ function set(key: string, value: string): void {
 function remove(key: string): void {
   try {
     global.localStorage.removeItem(key);
-  } catch (error
+  } catch (error) {
+    throw new 
