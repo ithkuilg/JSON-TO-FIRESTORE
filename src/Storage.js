@@ -30,4 +30,4 @@ function clear(): void {
   try {
     global.localStorage.clear();
   } catch (error) {
-    throw
+    throw new Error('localSto
