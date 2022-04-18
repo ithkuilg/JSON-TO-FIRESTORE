@@ -26,4 +26,5 @@ function remove(key: string): void {
   }
 }
 
-function clear(): void
+function clear(): void {
+  try {
