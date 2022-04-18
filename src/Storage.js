@@ -29,4 +29,5 @@ function remove(key: string): void {
 function clear(): void {
   try {
     global.localStorage.clear();
-  } cat
+  } catch (error) {
+    throw
