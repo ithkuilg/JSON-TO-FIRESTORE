@@ -28,3 +28,4 @@ function remove(key: string): void {
 
 function clear(): void {
   try {
+    global.l
