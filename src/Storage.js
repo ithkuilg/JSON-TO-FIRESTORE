@@ -30,4 +30,8 @@ function clear(): void {
   try {
     global.localStorage.clear();
   } catch (error) {
-    throw new Error('localStorage not accessi
+    throw new Error('localStorage not accessible');
+  }
+}
+
+class 
