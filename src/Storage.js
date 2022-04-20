@@ -35,4 +35,4 @@ function clear(): void {
 }
 
 class Storage<T> {
- 
+  name: string;
