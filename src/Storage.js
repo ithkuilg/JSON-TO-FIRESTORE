@@ -34,4 +34,5 @@ function clear(): void {
   }
 }
 
-class 
+class Storage<T> {
+ 
