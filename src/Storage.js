@@ -38,4 +38,4 @@ class Storage<T> {
   name: string;
   version: number;
 
-  constructor(name: 
+  constructor(name: string, version
