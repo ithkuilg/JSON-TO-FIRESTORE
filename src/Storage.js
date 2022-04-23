@@ -39,4 +39,5 @@ class Storage<T> {
   version: number;
 
   constructor(name: string, version?: number) {
-    if
+    if (version) {
+  
