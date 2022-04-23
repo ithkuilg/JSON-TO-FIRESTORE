@@ -36,4 +36,6 @@ function clear(): void {
 
 class Storage<T> {
   name: string;
-  version: nu
+  version: number;
+
+  constr
