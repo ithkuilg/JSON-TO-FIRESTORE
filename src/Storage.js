@@ -38,4 +38,5 @@ class Storage<T> {
   name: string;
   version: number;
 
-  constructor(name: string, version
+  constructor(name: string, version?: number) {
+    if
