@@ -41,4 +41,5 @@ class Storage<T> {
   constructor(name: string, version?: number) {
     if (version) {
       const parsedVersion = parseInt(version, 10);
-      if (!parsedVersion || parsedVersion <= 0
+      if (!parsedVersion || parsedVersion <= 0) {
+        thro
