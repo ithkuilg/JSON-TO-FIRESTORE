@@ -42,4 +42,4 @@ class Storage<T> {
     if (version) {
       const parsedVersion = parseInt(version, 10);
       if (!parsedVersion || parsedVersion <= 0) {
-        thro
+        throw new Error('version has to be
