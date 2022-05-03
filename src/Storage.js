@@ -45,4 +45,6 @@ class Storage<T> {
         throw new Error('version has to be a positive integer');
       }
       this.name = name;
-      this.version = parsed
+      this.version = parsedVersion;
+
+   
