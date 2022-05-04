@@ -47,4 +47,5 @@ class Storage<T> {
       this.name = name;
       this.version = parsedVersion;
 
-      const previousVersion = parseInt(get(name),
+      const previousVersion = parseInt(get(name), 10) || 0;
+ 
