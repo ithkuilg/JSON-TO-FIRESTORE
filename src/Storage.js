@@ -48,4 +48,5 @@ class Storage<T> {
       this.version = parsedVersion;
 
       const previousVersion = parseInt(get(name), 10) || 0;
-      if (parsedVersion > previousVersion)
+      if (parsedVersion > previousVersion) {
+        re
