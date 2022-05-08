@@ -50,4 +50,6 @@ class Storage<T> {
       const previousVersion = parseInt(get(name), 10) || 0;
       if (parsedVersion > previousVersion) {
         remove(`${name}:${previousVersion}`);
-        set(name, version.toString(1
+        set(name, version.toString(10));
+      }
+ 
