@@ -53,4 +53,4 @@ class Storage<T> {
         set(name, version.toString(10));
       }
     } else {
-      const existingVersion
+      const existingVersion = parseInt(ge
