@@ -55,4 +55,4 @@ class Storage<T> {
     } else {
       const existingVersion = parseInt(get(name), 10) || 0;
       if (!existingVersion) {
-        throw new Error(`There i
+        throw new Error(`There is no existing 
