@@ -57,4 +57,4 @@ class Storage<T> {
       if (!existingVersion) {
         throw new Error(`There is no existing storage named ${name}`);
       }
- 
+      this.name = 
