@@ -54,4 +54,5 @@ class Storage<T> {
       }
     } else {
       const existingVersion = parseInt(get(name), 10) || 0;
-      if (!existingVers
+      if (!existingVersion) {
+    
