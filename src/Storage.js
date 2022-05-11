@@ -58,4 +58,8 @@ class Storage<T> {
         throw new Error(`There is no existing storage named ${name}`);
       }
       this.name = name;
-      this.version = existingVersi
+      this.version = existingVersion;
+    }
+  }
+
+ 
