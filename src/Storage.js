@@ -63,4 +63,4 @@ class Storage<T> {
   }
 
   read(): ?T {
-    con
+    const key = `${this
