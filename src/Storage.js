@@ -63,4 +63,5 @@ class Storage<T> {
   }
 
   read(): ?T {
-    const key = `${this.name}:${this.ve
+    const key = `${this.name}:${this.version}`;
+    c
