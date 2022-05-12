@@ -62,4 +62,4 @@ class Storage<T> {
     }
   }
 
- 
+  read(): ?T {
