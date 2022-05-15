@@ -64,4 +64,4 @@ class Storage<T> {
 
   read(): ?T {
     const key = `${this.name}:${this.version}`;
-    const jsonStrin
+    const jsonString = get(key)
