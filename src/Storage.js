@@ -66,4 +66,5 @@ class Storage<T> {
     const key = `${this.name}:${this.version}`;
     const jsonString = get(key);
 
-    let valu
+    let value: ?T = null;
+    
