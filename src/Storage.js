@@ -70,4 +70,4 @@ class Storage<T> {
     if (jsonString) {
       try {
         value = JSON.parse(jsonString);
-      } catc
+      } catch (error) {
