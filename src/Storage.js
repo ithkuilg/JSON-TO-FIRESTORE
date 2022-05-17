@@ -69,4 +69,5 @@ class Storage<T> {
     let value: ?T = null;
     if (jsonString) {
       try {
-        value = JSON.parse(jsonString
+        value = JSON.parse(jsonString);
+      } catc
