@@ -71,3 +71,4 @@ class Storage<T> {
       try {
         value = JSON.parse(jsonString);
       } catch (error) {
+        // Remo
