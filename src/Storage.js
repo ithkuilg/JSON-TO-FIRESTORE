@@ -67,4 +67,4 @@ class Storage<T> {
     const jsonString = get(key);
 
     let value: ?T = null;
-    
+    if (jsonStrin
