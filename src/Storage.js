@@ -68,4 +68,5 @@ class Storage<T> {
 
     let value: ?T = null;
     if (jsonString) {
-     
+      try {
+       
