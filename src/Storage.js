@@ -78,3 +78,5 @@ class Storage<T> {
 
     return value;
   }
+
+  write(value: T): 
