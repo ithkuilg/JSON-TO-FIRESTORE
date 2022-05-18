@@ -72,4 +72,6 @@ class Storage<T> {
         value = JSON.parse(jsonString);
       } catch (error) {
         // Remove corrupted item
-        remove(
+        remove(key);
+      }
+   
