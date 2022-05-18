@@ -76,4 +76,5 @@ class Storage<T> {
       }
     }
 
-    return v
+    return value;
+  }
