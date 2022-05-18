@@ -74,4 +74,6 @@ class Storage<T> {
         // Remove corrupted item
         remove(key);
       }
-   
+    }
+
+    return v
