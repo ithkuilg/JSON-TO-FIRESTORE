@@ -80,4 +80,4 @@ class Storage<T> {
   }
 
   write(value: T): void {
-    const key = `${this.name}:${thi
+    const key = `${this.name}:${this.version}`;
