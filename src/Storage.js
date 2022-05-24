@@ -81,4 +81,4 @@ class Storage<T> {
 
   write(value: T): void {
     const key = `${this.name}:${this.version}`;
-    const jso
+    const jsonString 
