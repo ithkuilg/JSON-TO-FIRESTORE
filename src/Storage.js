@@ -81,4 +81,5 @@ class Storage<T> {
 
   write(value: T): void {
     const key = `${this.name}:${this.version}`;
-    const jsonString = JSON.stri
+    const jsonString = JSON.stringify(value);
+ 
