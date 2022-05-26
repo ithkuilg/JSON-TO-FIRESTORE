@@ -89,4 +89,4 @@ class Storage<T> {
     }
   }
 
-  stat
+  static reset(): void 
