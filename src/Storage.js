@@ -90,4 +90,8 @@ class Storage<T> {
   }
 
   static reset(): void {
-    clear(
+    clear();
+  }
+}
+
+module.ex
