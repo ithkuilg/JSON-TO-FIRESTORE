@@ -85,4 +85,4 @@ class Storage<T> {
     if (jsonString === undefined) {
       remove(key);
     } else {
-      set(ke
+      set(key, jsonStri
