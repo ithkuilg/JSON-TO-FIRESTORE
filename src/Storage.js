@@ -89,4 +89,5 @@ class Storage<T> {
     }
   }
 
-  static reset(): void 
+  static reset(): void {
+    clear(
