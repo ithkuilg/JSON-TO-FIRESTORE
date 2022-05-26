@@ -83,4 +83,4 @@ class Storage<T> {
     const key = `${this.name}:${this.version}`;
     const jsonString = JSON.stringify(value);
     if (jsonString === undefined) {
-      r
+      remove(key)
