@@ -55,3 +55,17 @@ it('can write object to storage', () => {
   const storage = new Storage(STORAGE_NAME, STORAGE_VERSION);
   storage.write(TEST_OBJECT);
   expect(setItem.mock.calls.length).toBe(2);
+  expect(setItem.mock.calls[1].length).toBe(2);
+  expect(setItem.mock.calls[1][0]).toBe(`${STORAGE_NAME}:${STORAGE_VERSION}`);
+  expect(setItem.mock.calls[1][1]).toBe(JSON.stringify(TEST_OBJECT));
+});
+
+it('can read object from storage', () => {
+  const storage = new Storage(STORAGE_NAME, STORAGE_VERSION);
+  getItem.mockImplementationOnce((key) => {
+    expect(key).toBe(`${STORAGE_NAME}:${STORAGE_VERSION}`);
+    return JSON.stringify(TEST_OBJECT);
+  });
+  const json = storage.read();
+  expect(json).toEqual(TEST_OBJECT);
+});
