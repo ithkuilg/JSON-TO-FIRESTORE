@@ -38,3 +38,20 @@ afterEach(() => {
 });
 
 it('accepts name and version in constructor', () => {
+  const storage = new Storage(STORAGE_NAME, STORAGE_VERSION);
+  expect(storage.name).toBe(STORAGE_NAME);
+  expect(storage.version).toBe(STORAGE_VERSION);
+});
+
+it('stores version number', () => {
+  const storage = new Storage(STORAGE_NAME, STORAGE_VERSION);
+  expect(setItem.mock.calls.length).toBe(1);
+  expect(setItem.mock.calls[0].length).toBe(2);
+  expect(setItem.mock.calls[0][0]).toBe(STORAGE_NAME);
+  expect(setItem.mock.calls[0][1]).toBe(STORAGE_VERSION.toString());
+});
+
+it('can write object to storage', () => {
+  const storage = new Storage(STORAGE_NAME, STORAGE_VERSION);
+  storage.write(TEST_OBJECT);
+  expect(setItem.mock.calls.length).toBe(2);
