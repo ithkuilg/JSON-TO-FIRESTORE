@@ -94,4 +94,4 @@ class Storage<T> {
   }
 }
 
-module.ex
+module.exports = Storage;
