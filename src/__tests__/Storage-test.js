@@ -22,3 +22,19 @@ beforeEach(() => {
   clear = jest.fn();
   const localStorageMock = {
     getItem,
+    setItem,
+    removeItem,
+    clear,
+  };
+  localStorageBackup = global.localStorage;
+  Object.defineProperty(global, 'localStorage', {
+    writable: true,
+  });
+  global.localStorage = localStorageMock;
+});
+
+afterEach(() => {
+  global.localStorage = localStorageBackup;
+});
+
+it('accepts name and version in constructor', () => {
