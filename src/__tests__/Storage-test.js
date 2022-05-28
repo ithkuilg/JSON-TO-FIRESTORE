@@ -81,3 +81,16 @@ it('clears storage after version bumping', () => {
   expect(removeItem.mock.calls[0][0]).toBe(
     `${STORAGE_NAME}:${STORAGE_VERSION}`,
   );
+});
+
+it('clears storage if data is corrupted', () => {
+  const storage = new Storage(STORAGE_NAME, STORAGE_VERSION);
+  getItem.mockImplementationOnce((key) => {
+    expect(key).toBe(`${STORAGE_NAME}:${STORAGE_VERSION}`);
+    return '**' + JSON.stringify(STORAGE_VERSION) + '**';
+  });
+  removeItem.mockClear();
+  const object = storage.read();
+  expect(object).toBeNull();
+  expect(removeItem.mock.calls.length).toBe(1);
+  expect(removeItem.mock.calls[0].length).toBe(1);
