@@ -69,3 +69,15 @@ it('can read object from storage', () => {
   const json = storage.read();
   expect(json).toEqual(TEST_OBJECT);
 });
+
+it('clears storage after version bumping', () => {
+  getItem.mockImplementationOnce((key) => {
+    expect(key).toBe(STORAGE_NAME);
+    return JSON.stringify(STORAGE_VERSION);
+  });
+  const storage = new Storage(STORAGE_NAME, STORAGE_VERSION + 1);
+  expect(removeItem.mock.calls.length).toBe(1);
+  expect(removeItem.mock.calls[0].length).toBe(1);
+  expect(removeItem.mock.calls[0][0]).toBe(
+    `${STORAGE_NAME}:${STORAGE_VERSION}`,
+  );
