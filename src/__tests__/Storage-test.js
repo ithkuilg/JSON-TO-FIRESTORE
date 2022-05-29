@@ -106,3 +106,19 @@ it('can can reset everything', () => {
 
 it('will throw if localStorage throws', () => {
   const storage = new Storage(STORAGE_NAME, STORAGE_VERSION);
+
+  setItem.mockImplementation(() => {
+    throw new Error();
+  });
+  expect(() => {
+    storage.write(TEST_OBJECT);
+  }).toThrow();
+
+  removeItem.mockImplementation(() => {
+    throw new Error();
+  });
+  expect(() => {
+    new Storage(STORAGE_NAME, STORAGE_VERSION + 1);
+  }).toThrow();
+
+  getItem.mockImplementation(() => {
