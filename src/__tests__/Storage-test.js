@@ -94,3 +94,15 @@ it('clears storage if data is corrupted', () => {
   expect(object).toBeNull();
   expect(removeItem.mock.calls.length).toBe(1);
   expect(removeItem.mock.calls[0].length).toBe(1);
+  expect(removeItem.mock.calls[0][0]).toBe(
+    `${STORAGE_NAME}:${STORAGE_VERSION}`,
+  );
+});
+
+it('can can reset everything', () => {
+  Storage.reset();
+  expect(clear.mock.calls.length).toBe(1);
+});
+
+it('will throw if localStorage throws', () => {
+  const storage = new Storage(STORAGE_NAME, STORAGE_VERSION);
