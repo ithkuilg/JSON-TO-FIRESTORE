@@ -141,3 +141,12 @@ it('will throw if localStorage throws', () => {
 
 it('uses existing version when version is omitted', () => {
   getItem.mockImplementationOnce((key) => {
+    expect(key).toBe(STORAGE_NAME);
+    return STORAGE_VERSION;
+  });
+  const storage = new Storage(STORAGE_NAME);
+  expect(storage.version).toBe(STORAGE_VERSION);
+  getItem.mockImplementationOnce((key) => {
+    expect(key).toBe(`${STORAGE_NAME}:${STORAGE_VERSION}`);
+    return JSON.stringify(TEST_OBJECT);
+  });
