@@ -122,3 +122,22 @@ it('will throw if localStorage throws', () => {
   }).toThrow();
 
   getItem.mockImplementation(() => {
+    throw new Error();
+  });
+  expect(() => {
+    storage.read();
+  }).toThrow();
+  expect(() => {
+    new Storage(STORAGE_NAME, STORAGE_VERSION);
+  }).toThrow();
+
+  clear.mockImplementation(() => {
+    throw new Error();
+  });
+  expect(() => {
+    Storage.reset();
+  }).toThrow();
+});
+
+it('uses existing version when version is omitted', () => {
+  getItem.mockImplementationOnce((key) => {
