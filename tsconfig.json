@@ -3,4 +3,5 @@
     "rootDir": "src",
     "outDir": "lib",
     "declaration": true,
-    "emitDeclarationOnly": 
+    "emitDeclarationOnly": true,
+    "lib":
