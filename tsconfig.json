@@ -6,4 +6,5 @@
     "emitDeclarationOnly": true,
     "lib": ["es2015"]
   },
-  "include": ["
+  "include": ["src"],
+  "exclud
