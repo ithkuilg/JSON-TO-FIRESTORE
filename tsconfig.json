@@ -7,4 +7,4 @@
     "lib": ["es2015"]
   },
   "include": ["src"],
-  "exclud
+  "exclude": ["node_mod
