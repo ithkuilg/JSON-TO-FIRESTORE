@@ -396,3 +396,16 @@
   dependencies:
     "@jest/types" "^29.4.3"
     "@types/node" "*"
+    chalk "^4.0.0"
+    jest-message-util "^29.4.3"
+    jest-util "^29.4.3"
+    slash "^3.0.0"
+
+"@jest/core@^29.4.3":
+  version "29.4.3"
+  resolved "https://registry.yarnpkg.com/@jest/core/-/core-29.4.3.tgz#829dd65bffdb490de5b0f69e97de8e3b5eadd94b"
+  integrity sha512-56QvBq60fS4SPZCuM7T+7scNrkGIe7Mr6PVIXUpu48ouvRaWOFqRPV91eifvFM0ay2HmfswXiGf97NGUN5KofQ==
+  dependencies:
+    "@jest/console" "^29.4.3"
+    "@jest/reporters" "^29.4.3"
+    "@jest/test-result" "^29.4.3"
