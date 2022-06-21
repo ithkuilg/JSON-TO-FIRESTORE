@@ -427,3 +427,13 @@
     jest-runner "^29.4.3"
     jest-runtime "^29.4.3"
     jest-snapshot "^29.4.3"
+    jest-util "^29.4.3"
+    jest-validate "^29.4.3"
+    jest-watcher "^29.4.3"
+    micromatch "^4.0.4"
+    pretty-format "^29.4.3"
+    slash "^3.0.0"
+    strip-ansi "^6.0.0"
+
+"@jest/environment@^29.4.3":
+  version "29.4.3"
