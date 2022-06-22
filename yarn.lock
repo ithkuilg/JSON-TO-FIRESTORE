@@ -437,3 +437,17 @@
 
 "@jest/environment@^29.4.3":
   version "29.4.3"
+  resolved "https://registry.yarnpkg.com/@jest/environment/-/environment-29.4.3.tgz#9fe2f3169c3b33815dc4bd3960a064a83eba6548"
+  integrity sha512-dq5S6408IxIa+lr54zeqce+QgI+CJT4nmmA+1yzFgtcsGK8c/EyiUb9XQOgz3BMKrRDfKseeOaxj2eO8LlD3lA==
+  dependencies:
+    "@jest/fake-timers" "^29.4.3"
+    "@jest/types" "^29.4.3"
+    "@types/node" "*"
+    jest-mock "^29.4.3"
+
+"@jest/expect-utils@^29.4.3":
+  version "29.4.3"
+  resolved "https://registry.yarnpkg.com/@jest/expect-utils/-/expect-utils-29.4.3.tgz#95ce4df62952f071bcd618225ac7c47eaa81431e"
+  integrity sha512-/6JWbkxHOP8EoS8jeeTd9dTfc9Uawi+43oLKHfp6zzux3U2hqOOVnV3ai4RpDYHOccL6g+5nrxpoc8DmJxtXVQ==
+  dependencies:
+    jest-get-type "^29.4.3"
