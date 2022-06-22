@@ -451,3 +451,17 @@
   integrity sha512-/6JWbkxHOP8EoS8jeeTd9dTfc9Uawi+43oLKHfp6zzux3U2hqOOVnV3ai4RpDYHOccL6g+5nrxpoc8DmJxtXVQ==
   dependencies:
     jest-get-type "^29.4.3"
+
+"@jest/expect@^29.4.3":
+  version "29.4.3"
+  resolved "https://registry.yarnpkg.com/@jest/expect/-/expect-29.4.3.tgz#d31a28492e45a6bcd0f204a81f783fe717045c6e"
+  integrity sha512-iktRU/YsxEtumI9zsPctYUk7ptpC+AVLLk1Ax3AsA4g1C+8OOnKDkIQBDHtD5hA/+VtgMd5AWI5gNlcAlt2vxQ==
+  dependencies:
+    expect "^29.4.3"
+    jest-snapshot "^29.4.3"
+
+"@jest/fake-timers@^29.4.3":
+  version "29.4.3"
+  resolved "https://registry.yarnpkg.com/@jest/fake-timers/-/fake-timers-29.4.3.tgz#31e982638c60fa657d310d4b9d24e023064027b0"
+  integrity sha512-4Hote2MGcCTWSD2gwl0dwbCpBRHhE6olYEuTj8FMowdg3oQWNKr2YuxenPQYZ7+PfqPY1k98wKDU4Z+Hvd4Tiw==
+  dependencies:
