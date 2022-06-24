@@ -671,3 +671,15 @@
     "@babel/core" "~7.20.7"
     "@babel/generator" "~7.20.7"
     "@babel/parser" "~7.20.7"
+    "@babel/traverse" "~7.20.7"
+    "@babel/types" "~7.20.7"
+    javascript-natural-sort "0.7.1"
+    lodash.clone "~4.5.0"
+    lodash.isequal "~4.5.0"
+
+"@sinclair/typebox@^0.25.16":
+  version "0.25.21"
+  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.25.21.tgz#763b05a4b472c93a8db29b2c3e359d55b29ce272"
+  integrity sha512-gFukHN4t8K4+wVC+ECqeqwzBDeFeTzBXroBTqE6vcWrQGbEUpHO7LYdG0f4xnvYq4VOEwITSlHlp0JBAIFMS/g==
+
+"@sinonjs/commons@^2.0.0":
