@@ -2022,3 +2022,16 @@ flow-bin@^0.199.0:
   integrity sha512-Ic0Mp9iZ2exbH0mNj/XhzUWPZa9JylHb6uQARZnnYCTRwumOpjNOP0qwyRTltWrbCpfHjnWngNO9VLaVKHz2aQ==
 
 flow-copy-source@^2.0.8:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/flow-copy-source/-/flow-copy-source-2.0.9.tgz#0c94ad842f2ae544d5a6b8ae720cee0b8678d742"
+  integrity sha512-7zX/oHSIHe8YRGiA9QIcC4SW6KF667ikdmiDfbST15up1Ona8dn7Xy0PmSrfw6ceBWDww8sRKlCLKsztStpYkQ==
+  dependencies:
+    chokidar "^3.0.0"
+    fs-extra "^8.1.0"
+    glob "^7.0.0"
+    kefir "^3.7.3"
+    yargs "^15.0.1"
+
+flow-parser@^0.200.1:
+  version "0.200.1"
+  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.200.1.tgz#99a94b35b7d1815716e3db56bb797440ed340716"
