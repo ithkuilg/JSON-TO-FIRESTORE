@@ -2660,3 +2660,18 @@ jest-circus@^29.4.3:
     jest-runtime "^29.4.3"
     jest-snapshot "^29.4.3"
     jest-util "^29.4.3"
+    p-limit "^3.1.0"
+    pretty-format "^29.4.3"
+    slash "^3.0.0"
+    stack-utils "^2.0.3"
+
+jest-cli@^29.4.3:
+  version "29.4.3"
+  resolved "https://registry.yarnpkg.com/jest-cli/-/jest-cli-29.4.3.tgz#fe31fdd0c90c765f392b8b7c97e4845071cd2163"
+  integrity sha512-PiiAPuFNfWWolCE6t3ZrDXQc6OsAuM3/tVW0u27UWc1KE+n/HSn5dSE6B2juqN7WP+PP0jAcnKtGmI4u8GMYCg==
+  dependencies:
+    "@jest/core" "^29.4.3"
+    "@jest/test-result" "^29.4.3"
+    "@jest/types" "^29.4.3"
+    chalk "^4.0.0"
+    exit "^0.1.2"
