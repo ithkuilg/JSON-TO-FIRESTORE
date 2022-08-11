@@ -2740,3 +2740,16 @@ jest-each@^29.4.3:
     pretty-format "^29.4.3"
 
 jest-environment-node@^29.4.3:
+  version "29.4.3"
+  resolved "https://registry.yarnpkg.com/jest-environment-node/-/jest-environment-node-29.4.3.tgz#579c4132af478befc1889ddc43c2413a9cdbe014"
+  integrity sha512-gAiEnSKF104fsGDXNkwk49jD/0N0Bqu2K9+aMQXA6avzsA9H3Fiv1PW2D+gzbOSR705bWd2wJZRFEFpV0tXISg==
+  dependencies:
+    "@jest/environment" "^29.4.3"
+    "@jest/fake-timers" "^29.4.3"
+    "@jest/types" "^29.4.3"
+    "@types/node" "*"
+    jest-mock "^29.4.3"
+    jest-util "^29.4.3"
+
+jest-get-type@^29.4.3:
+  version "29.4.3"
