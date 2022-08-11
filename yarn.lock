@@ -2699,3 +2699,23 @@ jest-config@^29.4.3:
     graceful-fs "^4.2.9"
     jest-circus "^29.4.3"
     jest-environment-node "^29.4.3"
+    jest-get-type "^29.4.3"
+    jest-regex-util "^29.4.3"
+    jest-resolve "^29.4.3"
+    jest-runner "^29.4.3"
+    jest-util "^29.4.3"
+    jest-validate "^29.4.3"
+    micromatch "^4.0.4"
+    parse-json "^5.2.0"
+    pretty-format "^29.4.3"
+    slash "^3.0.0"
+    strip-json-comments "^3.1.1"
+
+jest-diff@^29.4.3:
+  version "29.4.3"
+  resolved "https://registry.yarnpkg.com/jest-diff/-/jest-diff-29.4.3.tgz#42f4eb34d0bf8c0fb08b0501069b87e8e84df347"
+  integrity sha512-YB+ocenx7FZ3T5O9lMVMeLYV4265socJKtkwgk/6YUz/VsEzYDkiMuMhWzZmxm3wDRQvayJu/PjkjjSkjoHsCA==
+  dependencies:
+    chalk "^4.0.0"
+    diff-sequences "^29.4.3"
+    jest-get-type "^29.4.3"
