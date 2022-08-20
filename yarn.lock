@@ -2872,3 +2872,15 @@ jest-runner@^29.4.3:
     jest-resolve "^29.4.3"
     jest-runtime "^29.4.3"
     jest-util "^29.4.3"
+    jest-watcher "^29.4.3"
+    jest-worker "^29.4.3"
+    p-limit "^3.1.0"
+    source-map-support "0.5.13"
+
+jest-runtime@^29.4.3:
+  version "29.4.3"
+  resolved "https://registry.yarnpkg.com/jest-runtime/-/jest-runtime-29.4.3.tgz#f25db9874dcf35a3ab27fdaabca426666cc745bf"
+  integrity sha512-F5bHvxSH+LvLV24vVB3L8K467dt3y3dio6V3W89dUz9nzvTpqd/HcT9zfYKL2aZPvD63vQFgLvaUX/UpUhrP6Q==
+  dependencies:
+    "@jest/environment" "^29.4.3"
+    "@jest/fake-timers" "^29.4.3"
