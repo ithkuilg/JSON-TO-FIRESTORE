@@ -2884,3 +2884,12 @@ jest-runtime@^29.4.3:
   dependencies:
     "@jest/environment" "^29.4.3"
     "@jest/fake-timers" "^29.4.3"
+    "@jest/globals" "^29.4.3"
+    "@jest/source-map" "^29.4.3"
+    "@jest/test-result" "^29.4.3"
+    "@jest/transform" "^29.4.3"
+    "@jest/types" "^29.4.3"
+    "@types/node" "*"
+    chalk "^4.0.0"
+    cjs-module-lexer "^1.0.0"
+    collect-v8-coverage "^1.0.0"
